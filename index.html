@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.svg" alt="logo" width="30" height="30" />
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Browse
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Landings
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Accounts
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center">
+          <div
+            class="icon__nav rounded-circle bg-light d-flex align-items-center justify-content-center"
+          >
+            <ion-icon name="notifications-outline"></ion-icon>
+          </div>
+          <img
+            src="./assets/avatar-1.jpg"
+            class="icon__nav rounded-circle"
+            alt="account_avatar"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+
+    <div class="hero__section">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-md-6 col-lg-5">
+            <h1>Welcome Web Students!</h1>
+            <p>
+              Hand-picked Instructor and expertly crafted courses, designed for
+              the mordern students and entrepreneur.
+            </p>
+            <div>
+              <button
+                type="button"
+                class="btn btn-success text-white mb-1 mb-sm-0"
+              >
+                Browse Courses
+              </button>
+              <button type="button" class="btn btn-light">
+                Are You Instructor?
+              </button>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-5">
+            <img src="./assets/hero-img.png" alt="hero_img" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BAR -->
+    <!-- <div class="row row-cols-1 row-cols-md-3">
+      <div class="col d-flex align-items-center">
+        <span class="round-icon rounded-circle bg-peach">
+          <ion-icon name="videocam-outline"></ion-icon>
+        </span>
+        <div class="d-flex flex-column ml-2">
+          <h5>30,000 online courses</h5>
+          <p class="font-sm">Enjoy a variety of fresh topics</p>
+        </div>
+      </div>
+      <div class="col d-flex mb-4 mb-md-0">
+        <span class="round-icon rounded-circle bg-peach">
+          <ion-icon name="people-outline"></ion-icon>
+        </span>
+        <div class="d-flex flex-column ml-2">
+          <h5>Expert instruction</h5>
+          <p class="font-sm">Find the right instructor for you</p>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <span class="round-icon rounded-circle bg-peach">
+          <ion-icon name="time-outline"></ion-icon>
+        </span>
+        <div class="d-flex flex-column ml-2">
+          <h5>Lifetime access</h5>
+          <p class="font-sm">Learn on your schedule</p>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- dsad -->
+
+    <div class="bg-white py-4 shadow-sm" aria-label="details">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex align-items-center">
+            <span>
+              <ion-icon name="videocam-outline"></ion-icon>
+            </span>
+            <div>
+              <h5>30,000 online courses</h5>
+              <p class="font-sm">Enjoy a variety of fresh topics</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <span>
+              <ion-icon name="people-outline"></ion-icon>
+            </span>
+            <div>
+              <h5>Expert instruction</h5>
+              <p class="font-sm">Find the right instructor for you</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <span>
+              <ion-icon name="time-outline"></ion-icon>
+            </span>
+            <div>
+              <h5>Lifetime access</h5>
+              <p class="font-sm">Learn on your schedule</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD CAROUSEL -->
+
+    <div class="container">
+      <h3>Recommended to you</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+        <div class="col">
+          <!-- ---------------------CARD--------------------- -->
+          <div class="card border-0 shadow-sm h-400">
+            <img
+              src="./assets/course-graphql.jpg"
+              class="card-img-top"
+              alt="GrahQI_Course_img"
+            />
+            <div class="card-body d-flex flex-column gap-3 my-2">
+              <div>
+                <div class="prova__titolo">
+                  <h5 class="card-title">
+                    GraphQL: introduction to graphQL for beginners
+                  </h5>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                  <div class="d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span class="text-secondary">2h 40m</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-1">
+                    <ion-icon class="text__violet" name="cellular"></ion-icon>
+                    <span class="text-secondary">Advance</span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-wrap">
+                <div class="stars__score">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>2.5</span>
+                </div>
+                <span class="ms-2 reviews__numbers text-secondary"
+                  >(1,500)</span
+                >
+              </div>
+              <div class="price">
+                <span class="fw-bold">$500</span>
+                <span class="text-decoration-line-through fw-light">$600</span>
+              </div>
+              <div class="card-footer bg-white p-0">
+                <div
+                  class="d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="avatar__card rounded-circle me-2"
+                      src="./assets/avatar-5.jpg"
+                      alt="Brooklyn Simmons_avatar"
+                    />
+                    <span class="font-sm">Brooklyn Simmons</span>
+                  </div>
+                  <ion-icon
+                    class="text-secondary"
+                    name="bookmark-outline"
+                  ></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- ---------------------CARD--------------------- -->
+          <div class="card border-0 shadow-sm h-400">
+            <img
+              src="./assets/course-javascript.jpg"
+              class="card-img-top"
+              alt="JavaScript_Course_img"
+            />
+            <div class="card-body d-flex flex-column gap-3 my-2">
+              <div>
+                <div class="prova__titolo">
+                  <h5 class="card-title">
+                    A Complete Beginner’s Guide to JavaScript
+                  </h5>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                  <div class="d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span class="text-secondary">4h 10m</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-1">
+                    <ion-icon class="text__violet" name="cellular"></ion-icon>
+                    <span class="text-secondary">Advance</span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-wrap">
+                <div class="stars__score">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>3.5</span>
+                </div>
+                <span class="ms-2 reviews__numbers text-secondary"
+                  >(1,500)</span
+                >
+              </div>
+              <div class="price">
+                <span class="fw-bold">$700</span>
+                <span class="text-decoration-line-through fw-light">$850</span>
+              </div>
+              <div class="card-footer bg-white p-0">
+                <div
+                  class="d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="avatar__card rounded-circle me-2"
+                      src="./assets/avatar-1.jpg"
+                      alt="Jenny Wilson_avatar"
+                    />
+                    <span class="font-sm">Jenny Wilson</span>
+                  </div>
+                  <ion-icon
+                    class="text-secondary"
+                    name="bookmark-outline"
+                  ></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- ---------------------CARD--------------------- -->
+          <div class="card border-0 shadow-sm h-400">
+            <img
+              src="./assets/course-node.jpg"
+              class="card-img-top"
+              alt="GrahQI_Course_img"
+            />
+            <div class="card-body d-flex flex-column gap-3 my-2">
+              <div>
+                <div class="prova__titolo">
+                  <h5 class="card-title">
+                    Beginning Node.js, Express & MongoDB Development
+                  </h5>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                  <div class="d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span class="text-secondary">2h 00m</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-1">
+                    <ion-icon class="text__violet" name="cellular"></ion-icon>
+                    <span class="text-secondary">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-wrap">
+                <div class="stars__score">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>4.0</span>
+                </div>
+                <span class="ms-2 reviews__numbers text-secondary"
+                  >(15,700)</span
+                >
+              </div>
+              <div class="price">
+                <span class="fw-bold">$800</span>
+                <span class="text-decoration-line-through fw-light">$950</span>
+              </div>
+              <div class="card-footer bg-white p-0">
+                <div
+                  class="d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="avatar__card rounded-circle me-2"
+                      src="./assets/avatar-3.jpg"
+                      alt="Sina Ray_avatar"
+                    />
+                    <span class="font-sm">Sina Ray</span>
+                  </div>
+                  <ion-icon
+                    class="text-secondary"
+                    name="bookmark-outline"
+                  ></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- ---------------------CARD--------------------- -->
+          <div class="card border-0 shadow-sm h-400">
+            <img
+              src="./assets/course-laravel.jpg"
+              class="card-img-top"
+              alt="GrahQI_Course_img"
+            />
+            <div class="card-body d-flex flex-column gap-3 my-2">
+              <div>
+                <h5 class="card-title">
+                  Laravel: The Ultimate Beginner’s Guide to Learn
+                </h5>
+                <div class="d-flex flex-wrap gap-2">
+                  <div class="d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span class="text-secondary">1h 00m</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-1">
+                    <ion-icon class="text__violet" name="cellular"></ion-icon>
+                    <span class="text-secondary">Beginner</span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-wrap">
+                <div class="stars__score">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half-outline"></ion-icon>
+                  <span>4.5</span>
+                </div>
+                <span class="ms-2 reviews__numbers text-secondary"
+                  >(2,500)</span
+                >
+              </div>
+              <div class="price">
+                <span class="fw-bold">$170</span>
+                <span class="text-decoration-line-through fw-light">$220</span>
+              </div>
+              <div class="card-footer bg-white p-0">
+                <div
+                  class="d-flex align-items-center justify-content-between mt-3"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="avatar__card rounded-circle me-2"
+                      src="./assets/avatar-7.jpg"
+                      alt="Sobo Rikhan_avatar"
+                    />
+                    <span class="font-sm">Sobo Rikhan</span>
+                  </div>
+                  <ion-icon
+                    class="text-secondary"
+                    name="bookmark-outline"
+                  ></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
